@@ -1,0 +1,34 @@
+{
+  "name": "@lwojcik/homepage",
+  "version": "1.0.0",
+  "description": "My homepage",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npm run dev",
+    "dev": "npx @11ty/eleventy --serve",
+    "watch": "eleventy --watch",
+    "debug": "DEBUG=* eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lukemnet/homepage.git"
+  },
+  "author": {
+    "name": "Łukasz Wójcik",
+    "url": "https://www.lukaszwojcik.net/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukemnet/homepage/issues"
+  },
+  "homepage": "https://github.com/lukemnet/homepage#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "0.11.1",
+    "@11ty/eleventy-navigation": "0.1.6",
+    "clean-css": "4.2.3",
+    "eleventy-plugin-sass": "1.1.1",
+    "html-minifier": "4.0.0",
+    "markdown-it": "12.0.2",
+    "terser": "5.5.0"
+  }
+}
